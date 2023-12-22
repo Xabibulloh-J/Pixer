@@ -368,6 +368,126 @@ img {
 }
 /* SECTION OUR WORK FINISH */
 
+/* SECTION LOGIN START */
+.login {
+    padding-bottom: 200px;
+}
+.login-title-wrapper {
+    margin: 0 auto;
+    width: 650px;
+}
+.login-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50.4px;
+    color: #101010;
+}
+.login-desc {
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    color: #636f87;
+}
+.login-form-wrapper {
+    width: 1008px;
+    margin: 0 auto;
+    padding: 64px 312px;
+    border-radius: 6px;
+    background-color: #f2f4f6;
+}
+.user-name {
+    display: block;
+    width: 384px;
+    height: 46px;
+    margin: 0 auto;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #636f87;
+    outline-style: none;
+    background-color: transparent;
+}
+.user-name::placeholder {
+    font-size: 20px;
+    font-weight: 700;
+    color: #101010;
+}
+.user-number {
+    display: block;
+    width: 384px;
+    height: 46px;
+    margin: 0 auto;
+    margin-top: 51px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #636f87;
+    outline-style: none;
+    background-color: transparent;
+}
+.user-number::placeholder {
+    font-size: 20px;
+    font-weight: 700;
+    color: #101010;
+}
+.user-desc {
+    display: block;
+    width: 384px;
+    height: 46px;
+    margin: 0 auto;
+    margin-top: 51px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #636f87;
+    outline-style: none;
+    background-color: transparent;
+}
+.user-desc::placeholder {
+    font-size: 20px;
+    font-weight: 700;
+    color: #101010;
+}
+.login-button {
+    width: 180px;
+    margin-top: 40px;
+    margin-right: 102px;
+    margin-bottom: 24px;
+    margin-left: 102px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #1aab7b;
+}
+.login-button:hover {
+    border-radius: 6px;
+    border: 1.5px solid #1aab7b;
+    color: #1aab7b;
+    background-color: #fff;
+}
+.login-button:active {
+    border-radius: 6px;
+    opacity: 0.7;
+    color: #fff;
+    background-color: #1aab7b;
+}
+.login-inputs-wrapper::after {
+    margin-left: 22px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    content: "We call back in 10-30 minutes, guaranteed!";
+    color: #858ea1;
+}
+/* SECTION LOGIN FINISH */
+
 /* FOOTER START */
 .footer-top {
     background-color: #101010;
